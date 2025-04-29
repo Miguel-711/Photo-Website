@@ -1,0 +1,170 @@
+* {
+    color: #adb5bd;
+    font-family: Libre Baskerville  ;
+}
+
+html {
+    margin-top: 60px;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #212529
+}
+
+.main-body{
+    padding: 0 min(5em, 10%);
+}
+
+.main-pic {
+    width: 100%;
+    height:auto;
+    object-fit:cover;
+    display: block;
+    margin: auto;
+    transition: 4s;
+    margin-bottom: 20px;
+}
+
+.nav-container {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    margin-bottom: 20px;
+}
+
+#title{
+    color: #f8f9fa;
+    text-decoration:underline;
+    font-size: 70px;
+    text-align: center;
+}
+
+/* BIO SECTION */
+
+.bio-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px;
+    column-gap: 10px;
+}
+
+.name-container {
+    text-align: center;
+    padding: 40px;
+}
+
+#myName {
+    font-family: Style Script;
+    font-size: 70px;
+    color: #ffffff;
+}
+
+#nameTitle {
+    color:#adb5bd;
+    font-weight: 200px;
+    padding-bottom: 20px;
+}
+
+.self-img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 500px;
+    margin-bottom: 10px;
+}
+
+.bio-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#bio--text {
+    color: #adb5bd;
+    text-align:center;
+    padding: 40px;
+    font-weight: 500px;
+    font-size: clamp(5px, 25px, 40px);
+    vertical-align: middle;
+    
+}
+
+/* GEAR SECTION */
+.gear-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 30px;
+}
+
+.gear-row{
+    border-bottom: 1px solid  #f8f9fa;
+    font-size: 30px;
+    padding-left: 10px;
+    color: #adb5bd;
+    position: relative;
+}
+
+#row-item{
+    position: absolute;
+    right: 0px;
+    color: #f8f9fa;
+}
+
+/* GRID PHOTO */
+
+.home-pic-container{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+}
+
+.home-pic-rightside,
+.home-pic-leftside {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.home-pic-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* My Services*/
+.services{
+    margin: 10dvh 0dvh;
+}
+
+.serviceOption {
+    color:#f8f9fa
+}
+
+.servicesGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+}
+
+.icon {
+    height: 50px;
+    margin-right: 10px;
+    width: auto;
+}
+
+/* Social */
+
+#socials {
+    display: flex;
+    align-items: baseline;
+    justify-content:space-between;
+    margin-top: 30px;
+}
+
+.email {
+    text-decoration: none;
+    color: #f8f9fa;
+}
