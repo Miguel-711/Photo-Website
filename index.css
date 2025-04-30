@@ -13,7 +13,7 @@ body {
 }
 
 .main-body{
-    padding: 0 min(5em, 10%);
+    padding: 0 min(2em, 10%);
 }
 
 .main-pic {
@@ -70,9 +70,7 @@ body {
 .self-img {
     width: 100%;
     height: auto;
-    object-fit: cover;
     border-radius: 500px;
-    margin-bottom: 10px;
 }
 
 .bio-text{
@@ -81,14 +79,12 @@ body {
     align-items: center;
 }
 
-#bio--text {
+.bio--text {
     color: #adb5bd;
     text-align:center;
-    padding: 40px;
-    font-weight: 500px;
-    font-size: clamp(5px, 25px, 40px);
-    vertical-align: middle;
-    
+    padding: 10px;
+    font-size: 40px;
+    vertical-align: middle;  
 }
 
 /* GEAR SECTION */
@@ -150,7 +146,7 @@ body {
 }
 
 .icon {
-    height: 50px;
+    height: 30px;
     margin-right: 10px;
     width: auto;
 }
